@@ -1,0 +1,19 @@
+{
+	"ratingId" : "R001",
+	"contestantVotes" : [{
+			"CA" : ["VA", "VB", "VC"]
+		},
+		{
+			"CB" : ["VD"]
+		},
+		{
+			"CC" : ["VE", "VF", "VG", "VH"]
+		},
+		{
+			"CD" : ["VI"]
+		},
+		{
+			"CE" : ["VJ"]
+		}
+	]
+}
