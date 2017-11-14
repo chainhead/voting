@@ -20,7 +20,7 @@ var contractInstance = ratingContract.at(contractAddresss);
 ratingId = 'R001';
 limit = 10;
 gasPayment = {
-    "from": web3.eth.accounts[5],
+    "from": web3.eth.accounts[0],
     "gas": 90000
 };
 for (var i = 0; i <= limit; i++) {

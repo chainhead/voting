@@ -23,7 +23,7 @@ var contractInstance = ratingContract.at(contractAddresss);
 var ratingId = votes.ratingId;
 var contestants = votes.contestantVotes;
 gasPayment = {
-    "from": web3.eth.accounts[4],
+    "from": web3.eth.accounts[0],
     "gas": 90000
 };
 //
