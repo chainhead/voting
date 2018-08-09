@@ -40,7 +40,7 @@ contract Rating {
     /*
     Rating Round constructor using a ratingId as a constructing argument.
     */
-    function Rating(bytes32 _ratingId) public {
+    constructor (bytes32 _ratingId) public {
         rr.ratingId = _ratingId;
         rr.ratingActive = true;
         rr.winningVotes = 0;
