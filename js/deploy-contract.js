@@ -3,10 +3,6 @@ var fs = require('fs');
 var path = require('path');
 //var uuid = require('uuid-v4');
 //
-//var ethereumHttpEndpoint = process.env.ETHEREUM_END_POINT;
-//var contractHome = process.env.CONTRACT_HOME;
-//var contractName = process.env.CONTRACT_NAME;
-//
 var ethereumHttpEndpoint = "http://52.207.232.215:8545";
 var contractHome = "/home/ubuntu/voting";
 var contractName = "Rating";
