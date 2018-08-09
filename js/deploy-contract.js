@@ -29,6 +29,7 @@ byteCode = "0x" + byteCode;
 web3.eth.personal.unlockAccount(web3.eth.accounts[0], "Welc0me");
 //web3.eth.personal.unlockAccount("0x3466768d42658fecb7e0c067edd17eb915030fb8", "Welc0me", 12000);
 
+/** 
 ratingContract.deploy(
     {
         data: byteCode,
@@ -46,8 +47,8 @@ ratingContract.deploy(
 .then(function(newContractInstance){
     console.log(newContractInstance.options.address)
 });
+*/
 
-/** 
 var deployedContract = ratingContract.new(ratingId, {
         data: byteCode,
         from: web3.eth.accounts[0],
@@ -64,4 +65,3 @@ var deployedContract = ratingContract.new(ratingId, {
         }
     }
 );
-*/
