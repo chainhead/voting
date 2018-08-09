@@ -7,7 +7,7 @@ var path = require('path');
 //var contractHome = process.env.CONTRACT_HOME;
 //var contractName = process.env.CONTRACT_NAME;
 //
-var ethereumHttpEndpoint = "52.207.232.215";
+var ethereumHttpEndpoint = "52.207.232.215:8545";
 var contractHome = "/home/ubuntu/voting";
 var contractName = "Rating";
 //
