@@ -21,7 +21,7 @@ var byteCode = fs.readFileSync(bytecodeFilePath).toString();
 var ratingId = 'R001';
 var ratingContract = new web3.eth.Contract(abiDef);
 byteCode = "0x" + byteCode;
-web3.personal.unlockAccount(web3.eth.accounts[0], "Welc0me");
+web3.Personal.unlockAccount(web3.eth.accounts[0], "Welc0me");
 var deployedContract = ratingContract.new(ratingId, {
         data: byteCode,
         from: web3.eth.accounts[0],
