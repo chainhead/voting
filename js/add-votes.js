@@ -20,6 +20,7 @@ var web3 = new Web3(new Web3.providers.HttpProvider(ethereumHttpEndpoint));
 var ratingContract = web3.eth.contract(abiDef);
 var contractInstance = ratingContract.at(contractAddresss);
 //
+web3.personal.unlockAccount(web3.eth.accounts[0], "Welc0me");   
 var ratingId = votes.ratingId;
 var contestants = votes.contestantVotes;
 gasPayment = {

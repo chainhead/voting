@@ -16,6 +16,7 @@ var abiDef = JSON.parse(abiFile);
 var ratingContract = web3.eth.contract(abiDef);
 var contractInstance = ratingContract.at(contractAddresss);
 //
+web3.personal.unlockAccount(web3.eth.accounts[0], "Welc0me");   
 // Set-up rating and voters
 ratingId = 'R001';
 limit = 10;
