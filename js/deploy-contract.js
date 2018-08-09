@@ -3,9 +3,13 @@ var fs = require('fs');
 var path = require('path');
 //var uuid = require('uuid-v4');
 //
-var ethereumHttpEndpoint = process.env.ETHEREUM_END_POINT;
-var contractHome = process.env.CONTRACT_HOME;
-var contractName = process.env.CONTRACT_NAME;
+//var ethereumHttpEndpoint = process.env.ETHEREUM_END_POINT;
+//var contractHome = process.env.CONTRACT_HOME;
+//var contractName = process.env.CONTRACT_NAME;
+//
+var ethereumHttpEndpoint = "52.207.232.215";
+var contractHome = "$HOME/voting";
+var contractName = "Rating";
 //
 var abiFilePath = path.join(contractHome, 'bin', 'sol', contractName) + '.abi';
 var bytecodeFilePath = path.join(contractHome, 'bin', 'sol', contractName) + '.bin';
