@@ -5,7 +5,7 @@ var path = require('path');
 var ethereumHttpEndpoint = "http://18.212.67.23:8545";
 var contractHome = "/home/ubuntu/voting";
 var contractName = "Rating";
-var contractAddresss = "0x0D2918D53807cDF852f78Af8689A2D9E47044896";
+var contractAddresss = "0xB3F3379eD84173d304bB0fD5d929a2e60a38574c";
 //
 var voteFilePath = path.join(contractHome, 'votes.json');
 var votesFile = fs.readFileSync(voteFilePath);
