@@ -26,7 +26,7 @@ var ratingId = web3.utils.asciiToHex("R001");
 var ratingContract = new web3.eth.Contract(abiDef);
 byteCode = "0x" + byteCode;
 //web3.eth.personal.unlockAccount(web3.eth.accounts[0], "Welc0me");
-web3.eth.personal.unlockAccount("0x3466768d42658fecb7e0c067edd17eb915030fb8", "Welc0me");
+web3.eth.personal.unlockAccount("0x3466768d42658fecb7e0c067edd17eb915030fb8", "welc0me");
 
 ratingContract.deploy(
     {
